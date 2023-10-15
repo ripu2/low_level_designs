@@ -1,6 +1,6 @@
 import { ParentContainer, SeatContainer } from './styles';
 import React, { useCallback, useEffect, useMemo, useState } from 'react'
-import { Row, seatEnum } from '@lld/utilts/types';
+import { Row, Seats, seatEnum } from '@lld/utilts/types';
 
 import { auditoriumActions } from '../../context/reducers';
 import { useAuditoriumContext } from '../../context';
