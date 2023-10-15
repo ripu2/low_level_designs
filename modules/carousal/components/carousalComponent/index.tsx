@@ -3,7 +3,6 @@ import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import ButtonComponent from '../button';
 import { CarousalData } from '../../types';
 import ImageComponent from '../imageComponent';
-import { current } from '@reduxjs/toolkit';
 import { useCarousal } from '../../hooks'
 
 function CarousalComponent() {
